@@ -1,0 +1,25 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de QR Code</title>
+</head>
+<body>
+    <h1>Générateur de QR Code</h1>
+
+    <form action="/generer" method="post">
+        <label for="url"> Adresse du site : </label>
+
+        <input 
+            type="url"
+            id="url"
+            name="url"
+            placeholder="https://nomdusite.com"
+            required
+        >
+
+        <button type="submit">Générer le QR Code</button>
+
+    </form>
+</body>
+</html>
